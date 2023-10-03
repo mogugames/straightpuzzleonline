@@ -2,7 +2,7 @@ name: Publish Cloudflare base files
 on:
   workflow_dispatch: {}
 env:
-  PUBLISH_REPOSITORY: your-account/your-project-repo
+  PUBLISH_REPOSITORY: mogugames/straightpuzzleonline
 jobs:
   build:
     name: Run the WebGL build

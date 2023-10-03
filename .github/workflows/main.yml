@@ -4,8 +4,8 @@ on:
     branches: [ ci ]
   workflow_dispatch: {}
 env:
-  PROJECT_NAME: your-project
-  PUBLISH_REPOSITORY: your-account/your-project-repo
+  PROJECT_NAME: straightpuzzleonline
+  PUBLISH_REPOSITORY: mogugames/straightpuzzleonline
 jobs:
   build:
     name: Run the WebGL build
